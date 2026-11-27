@@ -26,7 +26,7 @@ igbo_translation = {
 for igbo, english in igbo_dictionary.items():
     print(igbo, "=", english)
 
-word = input("\nEnter a Igbo word: ")
+word = input("\nEnter an Igbo word: ")
 
 if word in igbo_ dictionary:
     print("Translation:", igbo_dictionary[word])
